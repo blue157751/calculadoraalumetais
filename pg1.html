@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body class="container text-white " style="background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(6, 6, 44));"></body>
+
+  <header style="background-color: rgb(25, 12, 61); border-radius: 10px; max-width: 300px; margin: 0 auto;">
+    <h1 class="text-center text-primary" style="font-size: 2rem; font-family: Arial, Helvetica, sans-serif;"><strong>Alumetais</strong></h1>
+  </header>
+
+        <!-- Calculadora de peças -->
+        <a href="index.html"><button class="btn btn-primary mt-2">Voltar</button></a>
+
+        <h1 class="text-center mt-5">fazer calculo de peças:</h1>
+        
+          <form class="text-center mt-5" id="formularioCalcPecas" style="max-width: 500px; margin: 0 auto;"><br>
+              <label for="largura"><strong>Largura</strong></label><br>
+              <input class="p-2 form-control" type="text"  id="largura" placeholder="Exemplo: 250"><br>
+              <label for="espessura"><strong>espessura</strong></label><br>
+              <input class="p-2 form-control" type="text" id="espessura" placeholder="Exemplo: 1.20"><br>
+              <label for="pecas"><strong>Peças</strong></label><br>
+              <input class="p-2 form-control" type="text" id="pecas" placeholder="Exemplo: 100"><br>
+              <input class="p-2 btn btn-primary" type="submit" value="Calcular">
+          </form>
+
+        <!-- Imprimir resultado do calculo de peças -->
+        <div class="text-center fs-1 mt-5" id="resultadoUm"></div>
+
+        <script src="scripts/script1.js">  </script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
